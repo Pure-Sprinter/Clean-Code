@@ -41,7 +41,7 @@ require("request-promise")
   });
 ```
 
-### 2. Async/Await는 Promise보다 더욱 깔끔합니다.
+### 2. Async/Await는 Promise보다 더욱 깔끔합니다
 
 Promise도 Callback에 비해 정말 깔끔하지만 ES2017/ES8에선 async 와 await 가 있습니다. 이들은 Callback에 대한 더욱 깔끔한 해결책을 줍니다. 오직 필요한 것은 함수 앞에 async를 붙이는 것 뿐입니다. 그러면 함수를 논리적으로 연결하기 위해 더이상 then을 쓰지 않아도 됩니다.
 
